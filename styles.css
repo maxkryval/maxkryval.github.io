@@ -81,7 +81,6 @@ nav a:hover {
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-
 }
 
 .hidden {
@@ -92,6 +91,58 @@ h2 {
     font-size: 2.5em;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+#contact-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#contact-btn {
+    background-color: #e6ffe3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-btn:hover {
+    background-color: #388E3C;
+    color: white;
+}
+
+#contact-form {
+    background-color: #E8F5E9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C8E6C9;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #e6ffe3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #388E3C;
+    color: white;
 }
 
 
