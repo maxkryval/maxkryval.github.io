@@ -22,3 +22,13 @@ document.getElementById('contact-btn').addEventListener('click', function() {
         form.classList.add('hidden');
     }
 });
+
+document.getElementById('menu-icon').addEventListener('click', function() {
+  const x = document.getElementById("menu");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+
+});
