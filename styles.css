@@ -60,6 +60,36 @@ nav a:hover {
     border-radius: 5px;
 }
 
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-wrapper {
+  position: relative;
+
+  width: 100%px;
+  height: 100%px;
+
+  overflow: hidden;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.over-bg{
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
 #content {
     max-width: 1200px;
     margin: 40px auto;
@@ -68,6 +98,12 @@ nav a:hover {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     color: #101010;
+}
+
+#main {
+
+    height: 500px;
+
 }
 
 .content-section p {
@@ -102,6 +138,17 @@ h2 {
     font-size: 2.5em;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+#main h2 {
+
+    font-size: 3.5em;
+
+}
+
+#main p {
+
+    font-size: 1.5em;
 }
 
 #contact-container {
@@ -205,6 +252,7 @@ h2 {
     background-color: #2E7030;
 }
 
+
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
@@ -256,7 +304,6 @@ h2 {
     color: white;
 }
 
-/* Mobile adaptation */
 @media only screen and (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -288,5 +335,16 @@ h2 {
     nav #menu-icon {
 
         margin-left: 10px;
+    }
+
+    #main h2 {
+
+        font-size: 2em;
+
+    }
+
+    #main p {
+
+        font-size: 1em;
     }
 }
